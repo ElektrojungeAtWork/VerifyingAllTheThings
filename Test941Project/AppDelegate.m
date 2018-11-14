@@ -8,11 +8,11 @@
 
 #import "AppDelegate.h"
 
-@import AppCenter;
-@import AppCenterAnalytics;
-@import AppCenterCrashes;
-@import AppCenterDistribute;
-@import AppCenterPush;
+//@import AppCenter;
+//@import AppCenterAnalytics;
+//@import AppCenterCrashes;
+//@import AppCenterDistribute;
+//@import AppCenterPush;
 
 @interface AppDelegate ()
 
@@ -24,8 +24,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
   
-  [MSAppCenter start:@"ef0c9415-a6cd-4da9-bbfd-b2e8a2c8e3ee" withServices:@[[MSAnalytics class], [MSCrashes class], [MSDistribute class], [MSPush class]]];
-  
+//  [MSAppCenter start:@"ef0c9415-a6cd-4da9-bbfd-b2e8a2c8e3ee" withServices:@[[MSAnalytics class], [MSCrashes class], [MSDistribute class], [MSPush class]]];
+//
   return YES;
 }
 
