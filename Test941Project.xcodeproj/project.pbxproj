@@ -201,7 +201,6 @@
 					"$(ARCHS_STANDARD)",
 					armv7,
 					armv7s,
-					arm64e,
 				);
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -265,7 +264,6 @@
 					"$(ARCHS_STANDARD)",
 					armv7,
 					armv7s,
-					arm64e,
 				);
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
